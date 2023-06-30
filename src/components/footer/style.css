@@ -1,0 +1,98 @@
+footer{
+    background-image: url(../../../public/Assets/images/footer/footer\ bg.jpg);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+.left-col .logo{
+    width: fit-content;
+}
+.left-col .logo img{
+    width: auto;
+    height: 50px;
+}
+.left-col-text{
+    font-size: 1.2rem;
+    color: rgb(68, 68, 68);
+    font-weight: 500;
+    line-height: 28px;
+    margin: 10px 0 40px 0 !important;
+}
+.footer-contact i{
+    background-color: var(--orange-color);
+    padding: 12px;
+    border-radius: 50% 50% 0 50%;
+    -webkit-border-radius: 50% 50% 0 50%;
+    -moz-border-radius: 50% 50% 0 50%;
+    -ms-border-radius: 50% 50% 0 50%;
+    -o-border-radius: 50% 50% 0 50%;
+    margin-right: 18px !important;
+}
+.footer-contact i svg{
+    font-size: 2.3rem;
+    color: #fff;
+}
+.footer-contact-details h6{
+    color: var(--orange-color);
+    font-size: 1.2rem;
+}
+.footer-contact-details a{
+    color: var(--blue-color) !important;
+    font-weight: 700;
+    font-size: 1.4rem;
+    text-decoration: none;
+}
+.footer-content h4{
+    color: var(--blue-color) !important;
+    text-transform: capitalize;
+    font-size: 2rem;
+    font-weight: 700;
+    margin-bottom: 20px !important;
+}
+.quick-links ul, .our-services ul{
+    list-style: none;
+}
+.quick-links ul li, .our-services ul li{
+    margin-bottom: 8px !important;
+}
+.quick-links a, .our-services a{
+    text-transform: capitalize;
+    font-size: 1.3rem;
+    color: rgb(68, 68, 68) !important;
+    text-decoration: none;
+}
+.quick-links a:hover, .our-services a:hover{
+    color: var(--btn-primary) !important;
+}
+.subscribe-form input{
+    background-color: #fff;
+    outline: none;
+    border: none;
+    padding: 8px 12px;
+    box-shadow: 0 0 12px var(--box-shadow-color);
+}
+.subscribe-form input::placeholder{
+    font-size: 1.2rem;
+}
+.subscribe-form input, .subscribe-form button{
+    width: 100%;
+    height: 50px;
+    border-radius: 8px;
+    -webkit-border-radius: 8px;
+    -moz-border-radius: 8px;
+    -ms-border-radius: 8px;
+    -o-border-radius: 8px;
+}
+.subscribe-form button{
+    margin: 20px 0 !important;
+}
+.social-links a{
+    margin-right: 12px !important;
+    width: fit-content;
+}
+.social-links a img{
+    width: 32px;
+}
+.left-col, .quick-links, .our-services, .subscribe{
+    margin: 8px !important;
+}

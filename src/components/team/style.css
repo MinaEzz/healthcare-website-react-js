@@ -1,0 +1,63 @@
+#team{
+    min-height: 100vh;
+}
+.doctor-card{
+    text-align: center;
+    text-transform: capitalize;
+    font-weight: 600;
+    background-color: #fff;
+    padding: 32px;
+    margin: 8px !important;
+    border: 2px solid #e6e7ff;
+    border-radius: 8px;
+    -webkit-border-radius: 8px;
+    -moz-border-radius: 8px;
+    -ms-border-radius: 8px;
+    -o-border-radius: 8px;
+}
+.doctor-img{
+    border-radius: inherit;
+    -webkit-border-radius: inherit;
+    -moz-border-radius: inherit;
+    -ms-border-radius: inherit;
+    -o-border-radius: inherit;
+}
+.doctor-img img{
+    border-radius: inherit;
+    -webkit-border-radius: inherit;
+    -moz-border-radius: inherit;
+    -ms-border-radius: inherit;
+    -o-border-radius: inherit;
+    width: 100%;
+}
+.doctor-card h4{
+    font-size: 1.8rem;
+    color: var(--blue-color);
+    font-weight: 500;
+}
+.doctor-card span{
+    font-size: 1.3rem;
+    color: var(--orange-color);
+}
+.doctor-card .links{
+    margin-top: 18px !important;
+}
+.doctor-card .links a{
+    background-color: var(--btn-primary);
+    color: #fff;
+}
+.doctor-card:hover{
+    box-shadow: 0 0 30px var(--box-shadow-color);
+    border: none;
+}
+.links a:hover{
+    background-color: var(--orange-color);
+    color: #fff;
+}
+.links a{
+    transition: .3s all ease-in-out;
+    -webkit-transition: .3s all ease-in-out;
+    -moz-transition: .3s all ease-in-out;
+    -ms-transition: .3s all ease-in-out;
+    -o-transition: .3s all ease-in-out;
+}

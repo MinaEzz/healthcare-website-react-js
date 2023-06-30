@@ -1,0 +1,38 @@
+[
+  {
+    "id": 1,
+    "img": "Assets/images/blogs/blog1.jpg",
+    "date": "21 july 2022",
+    "title": "Dental Care for Women is very important"
+  },
+  {
+    "id": 2,
+    "img": "Assets/images/blogs/blog2.jpg",
+    "date": "19 september 2022",
+    "title": "In this hospital there are special surgeon"
+  },
+  {
+    "id": 3,
+    "img": "Assets/images/blogs/blog3.jpg",
+    "date": "11 november 2022",
+    "title": "Why Is Skin Surgeon Considered Underrated"
+  },
+  {
+    "id": 4,
+    "img": "Assets/images/blogs/blog4.jpg",
+    "date": "12 december 2022",
+    "title": "Understand Health Before You Regret"
+  },
+  {
+    "id": 5,
+    "img": "Assets/images/blogs/blog5.jpg",
+    "date": "19 january 2023",
+    "title": "Health Will Be A Thing Of The Past And Here"
+  },
+  {
+    "id": 6,
+    "img": "Assets/images/blogs/blog6.jpg",
+    "date": "21 february 2023",
+    "title": "Can you get a diflucan prescription online?"
+  }
+]

@@ -1,0 +1,12 @@
+.form-check{
+    display: flex !important;
+    align-items: center;
+    justify-content: flex-start;
+    padding: 0 !important;
+}
+.form-check input{
+    margin-right: 8px !important;
+}
+.form-check label{
+    color: #000;
+}

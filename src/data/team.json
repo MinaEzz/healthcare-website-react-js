@@ -1,0 +1,38 @@
+[
+  {
+    "id": 1,
+    "image": "Assets/images/team/doc1.jpg",
+    "name": "dr. adamma smith",
+    "role": "dentist"
+  },
+  {
+    "id": 2,
+    "image": "Assets/images/team/doc2.jpg",
+    "name": "dr. angela",
+    "role": "chiropractor"
+  },
+  {
+    "id": 3,
+    "image": "Assets/images/team/doc3.jpg",
+    "name": "dr. david benjamin",
+    "role": "cardiologist"
+  },
+  {
+    "id": 4,
+    "image": "Assets/images/team/doc4.jpg",
+    "name": "dr. samuel moreto",
+    "role": "orthopedic"
+  },
+  {
+    "id": 5,
+    "image": "Assets/images/team/doc5.jpg",
+    "name": "dr. mahfuz riad",
+    "role": "surgeon"
+  },
+  {
+    "id": 6,
+    "image": "Assets/images/team/doc6.jpg",
+    "name": "dr. john dehn",
+    "role": "medical science"
+  }
+]

@@ -1,0 +1,20 @@
+[
+  {
+    "id": 1,
+    "image": "Assets/images/team/doc1.jpg",
+    "name": "dr. adamma smith",
+    "role": "dentist"
+  },
+  {
+    "id": 2,
+    "image": "Assets/images/team/doc2.jpg",
+    "name": "dr. angela",
+    "role": "chiropractor"
+  },
+  {
+    "id": 3,
+    "image": "Assets/images/team/doc3.jpg",
+    "name": "dr. david benjamin",
+    "role": "cardiologist"
+  }
+]

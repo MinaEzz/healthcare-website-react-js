@@ -1,0 +1,76 @@
+#secrvices{
+  min-height: 100vh;
+}
+.service-item{
+    background-image: url(../../../public/Assets/images/services/item-bg.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    box-shadow: 0 0 20px var(--box-shadow-color);
+    padding: 30px;
+    margin: 18px !important;
+    border-radius: 20px;
+    -webkit-border-radius: 20px;
+    -moz-border-radius: 20px;
+    -ms-border-radius: 20px;
+    -o-border-radius: 20px;
+}
+.service-item i{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 130px;
+    height: 130px;
+    background-color: #fff;
+    border: 2px solid rgba(86,90,207,.1);
+    border-radius: inherit;
+    -webkit-border-radius: inherit;
+    -moz-border-radius: inherit;
+    -ms-border-radius: inherit;
+    -o-border-radius: inherit;
+}
+.service-item h4{
+    margin: 10px 0 !important;
+    color: var(--blue-color);
+    font-size: 1.8rem;
+    text-transform: capitalize;
+    font-weight: 600;
+}
+.service-item p{
+    color: #000;
+    text-transform: capitalize;
+    font-size: 1.1rem;
+}
+.service-item button{
+    padding: 8px !important;
+    margin-top: 10px !important;
+}
+.service-item button:hover{
+    background-color: #fff !important;
+    color: var(--btn-primary) !important;
+}
+/*animations*/
+.service-item:hover svg{
+    animation: shake 0.8s cubic-bezier(.36,.07,.19,.97) both;
+    transform: translate3d(0, 0, 0);
+    backface-visibility: hidden;
+    perspective: 1000px;
+    -webkit-animation: shake 0.8s cubic-bezier(.36,.07,.19,.97) both;
+}
+@keyframes shake {
+    10%, 90% {
+      transform: translate3d(-1px, 0, 0);
+    }
+    
+    20%, 80% {
+      transform: translate3d(2px, 0, 0);
+    }
+  
+    30%, 50%, 70% {
+      transform: translate3d(-4px, 0, 0);
+    }
+  
+    40%, 60% {
+      transform: translate3d(4px, 0, 0);
+    }
+  }

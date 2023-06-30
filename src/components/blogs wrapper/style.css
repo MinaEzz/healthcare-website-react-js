@@ -1,0 +1,13 @@
+#blogs-wrapper{
+    background-color: #fff;
+}
+#blogs-wrapper .head h4{
+    margin: auto !important;
+}
+.blogs-wrapper-content a button{
+    width: 200px;
+}
+.blogs-wrapper-content a button:hover{
+    background-color: #fff !important;
+    color: var(--btn-primary) !important;
+}

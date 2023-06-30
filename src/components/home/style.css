@@ -1,0 +1,80 @@
+#home{
+    min-height: 100vh;
+    background-image: url(../../../public/Assets/images/home/homebg.jpg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+#home .home-desc{
+    text-transform: capitalize;
+    padding: 18px 8px;
+}
+.home-desc strong{
+    padding: 4px 12px;
+    background-image: url(../../../public/Assets/images/shapes/shape\ 9.png);
+    background-size: auto;
+    background-position: center;
+    color: var(--btn-primary);
+    font-size: 1.4rem;
+    font-weight: 700;
+}
+.home-desc h1{
+    color: var(--blue-color);
+    font-size: 3.6rem;
+    font-weight: 900;
+    margin: 10px 0 24px 0 !important;
+}
+.home-desc button{
+    padding: 12px;
+    box-shadow: 0 0 18px var(--orange-color);
+    width: 200px;
+}
+.home-desc button:hover{
+    background-color: var(--orange-hov) !important;
+    color: #fff !important;
+}
+.home-desc a{
+    text-decoration: none;
+    color: #fff;
+    text-transform: capitalize;
+}
+#home .home-img img{
+    width: 100%;
+}
+.shape{
+    width: 90px;
+}
+.shape img{
+    width: 100%;
+}
+.shape.updown{
+    animation-duration: 1s !important;
+}
+/* media query */
+@media screen and (min-width:767px) and (max-width:1023px) {
+    .home-desc strong{
+        font-size: 1.2rem;
+        padding: 2px 6px;
+    }
+    .home-desc h1{
+        font-size: 2.8rem;
+    }
+    .home-desc button{
+        font-size: 1.2rem !important;
+        width: 160px;
+    }
+    
+}
+@media screen and (max-width:767px) {
+    .home-desc strong{
+        font-size: 1.2rem;
+    }
+    .home-desc h1{
+        font-size: 2.8rem;
+    }
+    .home-desc button{
+        font-size: 1.2rem !important;
+        width: 160px;
+    }
+    
+}
